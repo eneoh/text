@@ -15,8 +15,6 @@ app = Flask(__name__)
 
 # In[3]:
 
-
-get_ipython().system('pip install TextBlob')
 from textblob import TextBlob
 
 @app.route("/", methods=["GET","POST"])
